@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script>
+		$(document).ready(function(){
+    		$('[data-toggle="tooltip"]').tooltip();
+		});
+	</script>
+	<style type="text/css">
+	.bgimage{
+		background-image: url("workplace.jpg");		
+		height: 380px;
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+	}
+
+	.txt {
+		color : white;
+		font-size: 35px;
+		text-shadow: 2px 2px 4px #000000;
+
+	}
+
+	ul {
+		text-align: right;
+	}
+
+
+	li {
+    	display: inline;
+    	text-align: center;
+    	padding-left: 15px;
+		color: white;
+		font-size: 12px;
+		text-shadow: 2px 2px 4px #000000;
+	}
+
+	button {
+		background-color: #4CAF50;
+    	border: none;
+    	color: white;
+    	padding: 15px 30px;
+    	text-align: center;
+   	 	font-size: 15px;
+	}
+
+
+
+	.border {
+		height : 100%;
+		margin: 10px;
+		border-style: solid;
+   		border-width: 1px;
+   		border-color: #D8D8D8   ;
+	}
+
+
+	</style>
+</head>
+<body>
+<div class="container-fluid">
+	<div class="row bgimage">
+		<div class="col-sm-6 col-xs-12 txt" style="height: 10%;">
+		Knoldus</div>
+		<div class="col-sm-6 col-xs-12" style="height: 10%; margin-top: 10px">
+		 <ul >
+  			<a href=""><li>HOME</li></a>
+  			<a href=""><li>ABOUT</li></a>
+  			<a href=""><li>BLOG</li></a>
+  			<a href=""><li>CONTACT</li></a>
+		</ul> 
+		</div>
+		<div class="col-sm-6 col-xs-12 txt" style="height: 60%; vertical-align: center;   margin-top: 80px; font-size:22px;">
+			Functional Programming . Reactive Applications . Big Data . Business Solutions</br>
+			<button id="btn1" data-toggle="tooltip" title="Click now!!">Start With US!!</button>
+		</div>
+	</div>
+	<div class="row" style="height: 50px">
+		<div class="col-sm-12" style="color: black; text-align: center; margin-top: 15px; margin-bottom: 15px;font-size: 22px; ">
+			<b>Features you'll love !!!</b>
+		</div>
+	</div>	
+
+	<div class="row" style="height: 200px">
+		
+		<div class="col-sm-4 col-xs-12 " style="height: 100%" >
+			<div class="border" data-toggle="modal" data-target="#myModal1" >
+			<p style="margin-top: 30px; font-size: 22px; text-align: center;"><b>Experts in Scala</b></p>
+			<p style="font-size: 15px; text-align: center;">We got on the functional programming bandwagon in late 2008 before it was fully accepted by development community. We recognized the advantages and strengths of functional programming and committed to mastering it.</p>
+			</div>
+			<div class="modal fade" id="myModal1" role="dialog">
+   				<div class="modal-dialog">
+   					<div class="modal-content">
+       					<div class="modal-header">
+          					<button type="button" class="close" data-dismiss="modal">&times;</button>
+          					<h4 class="modal-title">Experts in Scala</h4>
+        				</div>
+        				<div class="modal-body">
+        				  <p>We got on the functional programming bandwagon in late 2008 before it was fully accepted by development community. We recognized the advantages and strengths of functional programming and committed to mastering it.</p>
+        				</div>
+        				<div class="modal-footer">
+          					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+     	   				</div>
+      				</div>
+      	
+    			</div>
+  			</div>
+			
+		</div>
+		
+		<div class="col-sm-4 col-xs-12 " style="height: 100%">
+			<div class="border" data-toggle="modal" data-target="#myModal2">
+				<p style="margin-top: 30px; font-size: 22px; text-align: center;"><b>Build Software</b></p>
+			<p style="font-size: 15px; text-align: center;">With the sae care we take to build software, we work hard to nurture partnerships with clients that are meaningful, respectful and productive. We listen closely to your needs and work hard to exceed your expectations.</p>
+			
+			</div>
+			<div class="modal fade" id="myModal2" role="dialog">
+   				<div class="modal-dialog">
+   					<div class="modal-content">
+       					<div class="modal-header">
+          					<button type="button" class="close" data-dismiss="modal">&times;</button>
+          					<h4 class="modal-title">Build Software</h4>
+        				</div>
+        				<div class="modal-body">
+        				  <p>With the sae care we take to build software, we work hard to nurture partnerships with clients that are meaningful, respectful and productive. We listen closely to your needs and work hard to exceed your expectations.</p>
+        				</div>
+        				<div class="modal-footer">
+          					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+     	   				</div>
+      				</div>
+      	
+    			</div>
+  			</div>
+			
+		</div>
+		
+		<div class="col-sm-4 col-xs-12 " style="height: 100%">
+			<div class="border" data-toggle="modal" data-target="#myModal3">
+				<p style="margin-top: 30px; font-size: 22px; text-align: center;"><b>Thought Leaders & Teachers</b></p>
+			<p style="font-size: 15px; text-align: center;">We provide the development community with our insights and inspirations. We offer training and learning opportunities for beginners as well as seasoned professionals. We love to share our knowledge of Scala and Java. </p>
+			</div>
+			<div class="modal fade" id="myModal3" role="dialog">
+   				<div class="modal-dialog">
+   					<div class="modal-content">
+       					<div class="modal-header">
+          					<button type="button" class="close" data-dismiss="modal">&times;</button>
+          					<h4 class="modal-title">Thought Leaders & Teachers</h4>
+        				</div>
+        				<div class="modal-body">
+        				  <p>We provide the development community with our insights and inspirations. We offer training and learning opportunities for beginners as well as seasoned professionals. We love to share our knowledge of Scala and Java. </p>
+        				</div>
+        				<div class="modal-footer">
+          					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+     	   				</div>
+      				</div>
+      	
+    			</div>
+  			</div>
+		</div>
+	</div>
+
+</div>
+
+</body>
+</html>
+
+
+
+
+ 
